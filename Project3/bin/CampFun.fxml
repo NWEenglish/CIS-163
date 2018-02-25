@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1010.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CampFunController">
+   <children>
+      <ImageView fx:id="image" fitHeight="784.0" fitWidth="1000.0" layoutX="5.0" layoutY="18.0">
+         <image>
+            <Image url="Camp Fun.png" />
+         </image>
+      </ImageView>
+      <DatePicker fx:id="dateSelect" editable="false" layoutX="137.0" layoutY="141.0" />
+      <Button fx:id="okButton" layoutX="245.0" layoutY="176.0" mnemonicParsing="false" onAction="#okButtonListener" prefHeight="16.0" prefWidth="68.0" text="Ok" />
+      <Label fx:id="site2" layoutX="147.0" layoutY="440.0" text="Available">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="site1" layoutX="479.0" layoutY="299.0" text="Available">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="site3" layoutX="94.0" layoutY="656.0" text="Available">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="site4" layoutX="294.0" layoutY="574.0" text="Available">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="site5" layoutX="703.0" layoutY="683.0" text="Available">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
